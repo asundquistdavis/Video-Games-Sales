@@ -3,10 +3,7 @@
 - Ryan Grimsley
 - Sarah Stoffel
 - Andrew Sundquist
-## Overview
-pass
-
-## Goup 12 Proposal
+## Group 12 Proposal
 ### Group Members
 - Ryan Grimsley
 - Sarah Stoffel
