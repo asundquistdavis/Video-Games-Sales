@@ -12,7 +12,7 @@ This project demonstrates <u>E</u>xtracting, <u>T</u>ransforming and <u>L</u>oad
     - [world population file](#link) (2.58 KB)
     - [video games file](#link) (1.36 MB)
 - [project-2_database_erd.png](/project-2_database_erd.png): Image of ERD
-- [shcema.sql](/schema.sql): Text file to create the PostgreSQL database
+- [schema.sql](/schema.sql): Text file to create the PostgreSQL database
 - [test_query.sql](/test_query.sql): Text file to query the database
 ### Major Tasks
 - Raw Data Acquisition: Collectively on night 1
