@@ -1,18 +1,19 @@
-# "Project Name"
+# "Video Games Regional Sales and Population Data"
 ## Overview
 This project demonstrates <u>E</u>xtracting, <u>T</u>ransforming and <u>L</u>oading data so that it is ready for analyses. The project sets up a functioning PostrgeSQL database that stores video game sales and world population data. While the project does not perform any further analyses, this dataabse could be used to answer questions like which video game title has the  highest grossing sales per capita or which video game plaform is most popular (measured by sales of gameson that platform). The two data sets are [World Population](https://www.kaggle.com/datasets/iamsouravbanerjee/world-population-dataset) and [Video Game Sales](https://www.kaggle.com/datasets/gregorut/videogamesales), found on [Kaggle](https://www.kaggle.com/). 
 ## Contributers
-- Ryan Grimsley
-- Sarah Stoffel
-- Andrew Sundquist
+- [Ryan Grimsley](https://github.com/Grimsbear)
+- [Sarah Stoffel](https://github.com/17sarahstoffel)
+- [Andrew Sundquist](https://github.com/asundquistdavis)
 ## Contents
-- [etl.ipynb](/etl.ipynb)
-- [tech_report.etl](/tech_report.ipynb)
-- Resources
+- [etl.ipynb](/etl.ipynb): Notebook that performs the ETL process
+- [tech_report.etl](/tech_report.ipynb): Notebook that walks through the ETL process and its creation
+- Resources: Contains Raw Data csv Files
     - [world population file](#link) (2.58 KB)
     - [video games file](#link) (1.36 MB)
-- [project-2_database_erd.png](/project-2_database_erd.png)
-- [shcema.sql](/schema.sql)
+- [project-2_database_erd.png](/project-2_database_erd.png): Image of ERD
+- [shcema.sql](/schema.sql): Text file to create the PostgreSQL database
+- [test_query.sql](/test_query.sql): Text file to query the database
 ### Major Tasks
 - Raw Data Acquisition: Collectively on night 1
 - ERD and Postgres Setup: Collectively on night 1
@@ -31,3 +32,4 @@ This project demonstrates <u>E</u>xtracting, <u>T</u>ransforming and <u>L</u>oad
 
 ### Additional Notes
 - Set up of your Python Enviroment may be as simple as a ``source activate {your enviroment here}`` or ``conda activate {your enviroment here}``, but may require you to activately set up a Python Enviroment from scratch.
+- If you would like to confirm that your database is loaded, you can run the [test query](test_query.sql) file in pgAdmin.
